@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h1>Our Menu</h1>
+            <div id="product-list">
+                <div class="product">
+                    <img src="Mocha.jpg" height="100px" width="150px">
+                    <h2>Mocha</h2>
+                    <p>Price: $3.8</p>
+                    <button onclick="addToCart('Mocha', 3.8)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Americano.jpg" height="100px" width="150px">
+                    <h2>Americano</h2>
+                    <p>Price: $2.8</p>
+                    <button onclick="addToCart('Americano', 2.8)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Macchiato.jpg" height="100px" width="150px">
+                    <h2>Macchiato</h2>
+                    <p>Price: $3.2</p>
+                    <button onclick="addToCart('Macchiato', 3.2)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Cold Brew.jpg" height="100px" width="150px">
+                    <h2>Cold Brew</h2>
+                    <p>Price: $4.0</p>
+                    <button onclick="addToCart('Cold Brew', 4.0)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Flat White.jpg" height="100px" width="150px">
+                    <h2>Flat White</h2>
+                    <p>Price: $3.5</p>
+                    <button onclick="addToCart('Flat White', 3.5)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <br><br>
+
+        <div>
+            <button><a href="register.html">Register Now</button>
+            <br><br>
+            <button> <a href="login.html">Login</button>
+        </div>
+
+
+    <footer>
+        <p>&copy; 2025 Coffee Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>
